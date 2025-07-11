@@ -1,1 +1,2 @@
-import "./styles.css";
+import "./css/modern-normalize.css";
+import "./css/styles.css";
