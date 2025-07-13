@@ -30,7 +30,6 @@ h2 {
 .header-img {
   display: block;
   max-width: 100%;
-  height: 600px;
   object-fit: cover;
 }
 
@@ -61,7 +60,7 @@ p {
   width: 40px;
 }
 
-@media (min-width: 600px) and (max-width: 1000px) {
+@media (min-width: 600px) and (max-width: 999px) {
   .header-img {
     height: 450px;
     width: 400px;

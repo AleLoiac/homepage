@@ -19,7 +19,14 @@
         <div class="img-title-wrapper">
           <img
             class="header-img"
-            src="/src/assets/images/shiba_placeholder_high_res.jpg"
+            width="400"
+            height="600"
+            srcset="
+              /src/assets/images/shiba_placeholder_mid_res.jpg  1280w,
+              /src/assets/images/shiba_placeholder_high_res.jpg 4160w
+            "
+            sizes="(max-width: 600px) 100vw, 1280px"
+            src="/src/assets/images/shiba_placeholder_mid_res.jpg"
             alt="Shiba Inu with a party hat"
           />
           <h1 class="title">Shiba</h1>
