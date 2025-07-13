@@ -12,22 +12,16 @@ h2 {
   text-align: center;
 }
 
-.hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .title {
   position: absolute;
   top: 40px;
-  margin: 0;
-  padding: 5px;
 }
 
 .image-title {
   position: relative;
-  margin: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
 }
 
 .header-img {
@@ -35,7 +29,6 @@ h2 {
   max-width: 100%;
   height: 600px;
   object-fit: cover;
-  margin: 0 auto;
 }
 
 .background {
@@ -50,6 +43,9 @@ h2 {
 }
 
 .social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
   margin-bottom: 20px;
 }
 
