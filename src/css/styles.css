@@ -51,7 +51,7 @@ h2 {
   margin-bottom: 20px;
 }
 
-p {
+.about-description {
   margin: 20px;
 }
 
@@ -136,7 +136,7 @@ p {
   }
 
   h2,
-  p,
+  .about-description,
   .social-links {
     margin: 0;
   }
