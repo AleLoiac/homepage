@@ -1,0 +1,68 @@
+.contact {
+  background-color: #f8b0b5;
+}
+
+.contact-info {
+  padding: 20px 20px 60px 20px;
+}
+
+.address,
+.num-mail {
+  margin: 30px 0;
+}
+
+.road,
+.town,
+.number,
+.mail {
+  margin: 0;
+}
+
+.contact-social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.contact-svg {
+  cursor: pointer;
+  width: 50px;
+}
+
+.contact-img {
+  max-width: 100%;
+}
+
+@media (min-width: 600px) and (max-width: 999px) {
+  .contact {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 20px 50px 20px;
+  }
+
+  .contact-info,
+  .contact-img {
+    padding: 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding: 35px;
+  }
+
+  .contact-info,
+  .contact-img {
+    padding: 0;
+  }
+
+  .contact-img {
+    width: 100%;
+    max-width: 800px;
+  }
+}
