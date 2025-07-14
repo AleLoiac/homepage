@@ -22,11 +22,16 @@
             width="400"
             height="600"
             srcset="
-              /src/assets/images/shiba_placeholder_mid_res.jpg  1280w,
-              /src/assets/images/shiba_placeholder_high_res.jpg 4160w
+              /src/assets/images/shiba_placeholde_640x960.jpg     640w,
+              /src/assets/images/shiba_placeholder_800x1200.jpg   800w,
+              /src/assets/images/shiba_placeholder_1280x1920.jpg 1280w,
+              /src/assets/images/shiba_placeholder_1920x2880.jpg 1920w,
+              /src/assets/images/shiba_placeholder_4160x6240.jpg 4160w
             "
-            sizes="(max-width: 600px) 100vw, 1280px"
-            src="/src/assets/images/shiba_placeholder_mid_res.jpg"
+            sizes="(max-width: 599px) 100vw,
+	            (min-width: 600px) and (max-width: 999px) 400px,
+	            (min-width: 1000px) 400px"
+            src="/src/assets/images/shiba_placeholde_640x960.jpg"
             alt="Shiba Inu with a party hat"
           />
           <h1 class="title">Shiba</h1>
